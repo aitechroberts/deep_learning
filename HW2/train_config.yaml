@@ -1,0 +1,6 @@
+n_epochs: 100
+batch_size: 32
+opt_name: Adam
+opt_config: {lr: 0.001}
+lr_scheduler_name: null
+lr_scheduler_config: {}

@@ -1,6 +1,6 @@
 n_epochs: 200
 batch_size: 32
 opt_name: Adam
-opt_config: {lr: 0.001}
+opt_config: {lr: 0.0015}
 lr_scheduler_name: StepLR
 lr_scheduler_config: {step_size: 110, gamma: 0.3}

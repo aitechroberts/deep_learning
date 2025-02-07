@@ -1,3 +1,10 @@
+Take 4 things from things this course
+1. Pretraining
+2. Transformers
+3. Diffusion
+4. LLMs
+
+
 The difference between SVM and DL is that Neural Networks do representation and learning simultaneously
 
 Universal Function Approximator
@@ -7,7 +14,6 @@ Minimizing empirical risk
 
 w_2 = w_1 - partial derivatve of w_1 wrt Loss
 - subtract the loss of the local derivative from the weight and subtracting because you are going down aka "descending"
-
 
 
 ## Heuristic Methods
@@ -21,8 +27,4 @@ How to change a crazy surface of the loss curve that the gradient descends down?
 5. Drop Out
 
 **Weight Initialization**
-
-
-
-
 

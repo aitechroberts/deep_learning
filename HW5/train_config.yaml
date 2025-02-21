@@ -1,0 +1,6 @@
+optimizer_name: Adam
+optimizer_config: {lr: 0.001, weight_decay: 0.0005}
+lr_scheduler_name: ExponentialLR
+lr_scheduler_config: {gamma: 0.999}
+batch_size: 16
+n_epochs: 200

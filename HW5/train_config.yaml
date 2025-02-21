@@ -1,6 +1,6 @@
 optimizer_name: Adam
 optimizer_config: {lr: 0.001, weight_decay: 0.0003}
 lr_scheduler_name: StepLR
-lr_scheduler_config: {step_size: 50, gamma: 0.65}
+lr_scheduler_config: {step_size: 50, gamma: 0.63}
 batch_size: 16
 n_epochs: 200

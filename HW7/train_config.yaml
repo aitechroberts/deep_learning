@@ -1,0 +1,8 @@
+beta: 0.00043
+optimizer_name: Adam
+optimizer_config: {lr: 0.001}
+lr_scheduler_name: StepLR
+lr_scheduler_config: {step_size: 200, gamma: 0.7}
+running_avg_window: 30
+n_iters: 5000
+batch_size: 64

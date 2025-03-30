@@ -1,0 +1,14 @@
+optimizer_name_G: Adam
+optimizer_config_G:
+  lr: 0.0002
+  betas: &id001 !!python/tuple [0.5, 0.999]
+lr_scheduler_name_G: StepLR
+lr_scheduler_config_G: {step_size: 500, gamma: 0.7}
+optimizer_name_D: Adam
+optimizer_config_D:
+  lr: 0.0001
+  betas: *id001
+lr_scheduler_name_D: StepLR
+lr_scheduler_config_D: {step_size: 500, gamma: 0.7}
+n_iters: 7000
+batch_size: 32

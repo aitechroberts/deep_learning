@@ -1,0 +1,4 @@
+latent_size: 16
+output_size: 200
+hidden_dims: [256, 512, 1024]
+batchnorm: true

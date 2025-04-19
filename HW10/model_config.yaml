@@ -1,0 +1,1 @@
+{n_layers: 8, embed_dim: 256, num_heads: 8, norm_first: false, bias: true}

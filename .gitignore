@@ -7,3 +7,5 @@ HW6/__pycache__/
 __pycache__/
 airfoils/
 MNIST/
+CIFAR10/
+HW11/CIFAR10/
